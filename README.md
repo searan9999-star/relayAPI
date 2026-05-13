@@ -126,19 +126,6 @@ GPT5.4是人民币¥2.5(进)15(出)/一百万Token.
 接口挺稳定的, 适合企业使用使用.
 可以开发票.
 
-### [ANYONE.ai](https://www.hvoy.ai/relaySite?&name=ANYONE.ai&source=git)
-这个是一个新开的站点, 主要是面向企业用户.
-网站是基于newapi改的, 但是看得出来还是花了一些心思.
-
-支持的算法包括Claude, Gemini, GPT,还支持 GLM,Qwen, xAI, Kimi这些.
-
-目前 Opus 4.6  ¥5.4(进)27(出)/一百万Token, Sonnet4.6 ¥4.1(进)21(出)/一百万Token
-GPT5.5 是 ¥2.4(进)14.4(出)/一百万Token
-
-价格中等.
-
-还是要注意风险, 充钱要谨慎. 毕竟是一个新站. 
-
 
 ### [NekoCode](https://www.hvoy.ai/relaySite?name=NekoCode&source=git)
 2026年新开的一个站点, 提供Claude, GPT 两种类型的API.
