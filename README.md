@@ -20,10 +20,11 @@
 选择一个好的中转站不容易, 要看下面的这些点
 
 1. 最重要的是稳定，如果它自己经常宕机或延迟极高，那不仅没省事反而耽误事. 所以要优先买那些信誉好,运行时间长, 最好有群的站
-2  第二个是关注服务器节点位置。对于国内开发者，如果中转服务器在香港、新加坡, 就比在美国的站点好很多.
+2  第二个是速度. 一个站点如果返回速度过慢, 用起来会难受死.
 3. 模型的覆盖性: 一个好的中转站应该让你一站式调用全球顶尖模型, 最好能尽快上官方的最新模型.
 4. 中转站的收费有很多问题. 很多站看起来价格低, 实际运行起来价格很高. Token计数, 或者价格费率, 都是造成价格不同的很重要原因.  另外站点最好要有清晰的账单, 否则将来哪一天突然账单异常了,都查不到原因. 也要警惕价格异常便宜的模型, 大概率是拿着GLM这种低价国产模型代替高价的国外模型.
 5. 每个站都有跑路的危险, 优先选择公司运营的站点. 还有他们客服响应问题的速度, 站点速率波动时有没有通知这些.
+6. 注意隐形的点, 无量站比较容易做文档的就是缓存价格和缓存命中率. 正常来说, 缓存价格应该是10%左右, 但是有些站会多收点, 15%, 还有黑心站收30%.
 
 为了解决下面的问题, 我对使用过的中转站做一个评价.
 
@@ -31,7 +32,7 @@
 
 站点的价格更新太快了..我努力让这些价格是准确的.  
 
-[禾维AI](https://hvoy.ai/#sonnet-4-6-ranking) 现在上面增加排行, 有后台不停检测端口, 并且更新实时价格, 可以从排行榜上挑选合适的中转站
+[禾维AI](https://hvoy.ai/) 现在上面增加排行, 有后台不停检测端口, 并且更新实时价格, 可以从排行榜上挑选合适的中转站
 
 至于具体的检测代码, 已经不开源了. 
 
@@ -44,9 +45,10 @@ PackyCode 大约是24年底25年初开始活跃, 是国内比较早针对Claude 
 
 这个站点与开源社区互动比较频繁, 站长在x上也非常活跃, 客服响应比较快. 随着发展, 这个站已经是很多中转站的上游供应商.
 
-2026-4-3 更新, 现在最便宜的是Sonnet4.6 是人民币¥2.4(进)12(出)/一百万Token, Opus4.6是人民币4(进)20(出)/一百万Token 质量一般.
+我现在主流用法是, 要不就用便宜的GPT5.5, 1-2块钱/一百万Token.
+要不就用贵的, 质量较好的Claude Code, 大概10块钱左右/一百万Token.
 
-质量较好的渠道是cc, Sonnet4.6 人民币 ¥7.5(进)37.5(出)/一百万Token, Opus4.7 12.5(进)62.5(出)/一百万Token , 几乎不注水
+质量较好的渠道是cc, Opus4.7 10(进)5 0(出)/一百万Token, 几乎不注水
 
 GPPT 5.5 现在是人民币¥2.5(进)15(出)/一百万Token
 
@@ -62,13 +64,11 @@ Gemini现在好多渠道都用不了,或者响应速度巨慢, 用下来只有Pa
 
 价格很便宜, Kiro逆向的接口大概是官网的0.4折. Opus 4.6 反代的价格是人民币¥1.5(进)7.5(出)/一百万Token, Sonnet 4.6的价格是人民币¥0.9(进)4.5(出)/一百万Token . 这个渠道接口质量一般
 
-值得推荐的渠道是 /claude 渠道, Sonnet4.6 价格是人民币¥4.5(进)22.5(出)/一百万Token, Opus4.6 价格是人民币¥7.5(进)37.5(出)/一百万Token. 
+值得推荐的渠道是 /claude 渠道, Opus4.7 价格是人民币¥10(进)50(出)/一百万Token. 
 
 质量也不错, 对的起这个价格.
 
-~Codex有月套餐, 50人民币一个月对应每日可用60$+昨日未用完的额度, 80人民币一个月对应每天120元+昨日未用完的额度.是目前看到最便宜的.(2026/3/29更新, team没了, 月套餐也没了)~
-
-GPT 系列很划算, GPT5.4 是人民币¥0.5(进)3(出)/一百万Token,  GPT5.5是人民币¥1(进)6(出)/一百万Token (非常推荐. 我自己的主力)
+GPT 系列很划算, GPT5.5是人民币¥1(进)6(出)/一百万Token (非常推荐. 我自己的主力)
 
 Gemini系列的接口也很便宜, 大概是官网价格的1折.
 
@@ -80,7 +80,7 @@ Gemini系列的接口也很便宜, 大概是官网价格的1折.
 
 
 ### [Poixe AI](https://www.hvoy.ai/relaySite?target=https%3A%2F%2Fpoixe.com%2Fi%2Fsgurn9&name=Poixe%20AI&source=git)
-这个站是一个从 2024 年开始做, 在中转站里, 算是干了非常久啦
+这个站是一个从 2024 年开始做, 在中转站里, 算是干了非常久的. 
 
 整个站的风格我很喜欢, 不是审美疲劳的New API的这种风格.
 
@@ -89,7 +89,7 @@ Gemini系列的接口也很便宜, 大概是官网价格的1折.
 不同级别会员价格不一样,充一点钱就能Vip1,能八折.
 
 Sonnet4.6 的价格是人民币 16.8/84 一百万 Token, Opus4.7 价格是人民币 28/140 一百万 Token.
-GPT5.4 价格是人民币 14/84 一百万 Token, GPT5.4 价格是人民币 28/168一百万 Token.
+GPT5.4 价格是人民币 14/84 一百万 Token, GPT5.4 价格是人民币 28/168一百万 Token. (官方的东西, 真贵啊)
 
 价格是不便宜. 我试了下接口, 接口质量是相当好, 完全没掺水, 速度也快.
 网站上提供一个免费的接口,譬如 GPT4o这种.
@@ -134,6 +134,50 @@ GPT5.5 的价格是¥2(进)12(出)/一百万Token.
 我试了下MAX和给Claude Code的接口, 质量还挺好. 
 
 优点是新用户注册送4块钱的额度, 每天可以签到送一些额度. 很适合进行尝试, 感觉不错再充钱
+
+### [Cubence](https://www.hvoy.ai/relaySite?target=https%3A%2F%2Fcubence.com%2Fsignup%3Fcode%3DSCG4A2RZ&name=Cubence&source=git)
+这是一个2025年下半年新建的站, 站做的还挺好看的.
+
+支持Claude, Gemini和GPT,Grok的系列的API接口.
+
+逆向的Opus4.6 是人民币¥1.5(进)7.5(出)/一百万Token, 逆向的Sonnet4.6 是¥0.9(进)4.5(出)/一百万Token. 价格还不错, 看群里网友反应稳定心也还可以.
+
+新用户注册没有使用的额度, 最少一次要充值30人民币.
+
+### [IKunCode](https://www.hvoy.ai/relaySite?target=https%3A%2F%2Fapi.ikuncode.cc%2F&name=IKunCode&source=git)
+这也是一个专注于编程的API站点, 所以只支持Claude, GPT和Gemini.
+名字很时尚.
+
+只有按量收费一个收费方式
+QQ群里大家比较活跃.
+
+Claude Code 质量比较好的分组价格是 ClaudeCode-稳定, 价格是11.5(进)57.5(出)/一百万Token. 很稳定,速度也不错.
+GPT5.5 价格是1(进)6(出)/一百万Token. 挺公道的价格.
+
+总体来说是个很不错的站.
+
+### [DuckCoding](https://www.hvoy.ai/relaySite?target=https%3A%2F%2Fwww.duckcoding.ai%2Fregister%3Faff%3DbRob&name=DuckCoding&source=git)
+这是2025年10月开始运营的站点.
+
+支持Claude, Gemini,GPT 和 Grok.
+
+目前最便宜的是自己建的MAX池子, Sonnet4.6 价格是人民币¥4.5(进)22.5(出)/一百万Token. Opus4.6 最便宜是¥7.5(进)37.5(出)/一百万Token.
+用户登录送1块钱, 每天能送一点钱.
+MAX池子用起来是没有掺水.
+
+最少充值一块钱进行尝试. 只支持QQ邮箱进行注册
+
+
+### [DeRouter](https://www.hvoy.ai/relaySite?&name=DeRouter&source=git)
+这个站点很有意思, 很像之前的p2p, 为创新鼓掌.
+
+他的商业模式是, 有人托管claude code或者GPT的订阅在DeRouter, 然后客户再在这个平台买token. 
+挺有创意的想法.
+
+如果全部是这种模式, 那么所有的token 都只有可能是claude官方的, 或者 GPT官方的. 平台几乎没有任何意愿,来给用户降智或者掺水. 
+唯一需要考虑的点, 是平台需要一定的技术保证缓存命中率. 
+
+平台支持银行卡和加密货币支付, 不支持微信/支付宝. 
 
 
 ### [发现AI](https://www.hvoy.ai/relaySite?&name=%E5%8F%91%E7%8E%B0AI&source=git)
@@ -324,16 +368,7 @@ GPT5.4价格是 人民币¥0.77(进)4.5(出)/一百万Token.
 新用户送1块钱的额度.
 QQ群不太活跃
 
-### [DuckCoding](https://www.hvoy.ai/relaySite?target=https%3A%2F%2Fwww.duckcoding.ai%2Fregister%3Faff%3DbRob&name=DuckCoding&source=git)
-这是2025年10月开始运营的站点.
 
-支持Claude, Gemini,GPT 和 Grok.
-
-目前最便宜的是自己建的MAX池子, Sonnet4.6 价格是人民币¥4.5(进)22.5(出)/一百万Token. Opus4.6 最便宜是¥7.5(进)37.5(出)/一百万Token.
-用户登录送1块钱, 每天能送一点钱.
-MAX池子用起来是没有掺水.
-
-最少充值一块钱进行尝试. 只支持QQ邮箱进行注册
 
 ### [ClaudeCN](https://www.hvoy.ai/relaySite?target=https%3A%2F%2Fclaudecn.top%2Fregister%3Faff%3D3Uez&name=ClaudeCN&source=git)
 大概是2025年开始运营的一个站, 稳定性应该还行把.
@@ -411,14 +446,7 @@ GPT5.4的价格是 人民币¥0.38(进)3(出)/一百万Token. 感觉是不如Son
 
 新用户注册送0.5元的额度, 最少充值5人民币
 
-### [Cubence](https://www.hvoy.ai/relaySite?target=https%3A%2F%2Fcubence.com%2Fsignup%3Fcode%3DSCG4A2RZ&name=Cubence&source=git)
-这是一个2025年下半年新建的站, 站做的还挺好看的.
 
-支持Claude, Gemini和GPT,Grok的系列的API接口.
-
-逆向的Opus4.6 是人民币¥1.5(进)7.5(出)/一百万Token, 逆向的Sonnet4.6 是¥0.9(进)4.5(出)/一百万Token. 价格还不错, 看群里网友反应稳定心也还可以.
-
-新用户注册没有使用的额度, 最少一次要充值30人民币.
 
 ### [神马AI](https://www.hvoy.ai/relaySite?target=https%3A%2F%2Fapi.whatai.cc%2Fregister%3Faff%3DkjU5110733&name=%E7%A5%9E%E9%A9%ACAI&source=git)
 
