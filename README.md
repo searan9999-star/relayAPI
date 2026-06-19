@@ -67,16 +67,6 @@ Gemini现在好多渠道都用不了,或者响应速度巨慢, 用下来只有Pa
 
 新人注册送1元, 可以先试试再决定购买.  最少充值50块, 支持开发票.
 
-
-### [WinToken](https://www.hvoy.ai/relaySite?target=https%3A%2F%2Fwintoken.dev%2Fsign-up&name=WinToken&source=git)
-这个站比较适合 AI 应用开发、Agent 构建、产品原型验证、接口测试，以及企业内部工具集成这类场景。用户可以用一个 API Key 接入多种模型，省掉不少多平台账号配置和接口适配的麻烦。
-
-它提供 GPT、Claude、DeepSeek、Gemini、Qwen 等主流大模型的统一调用。
-
-它支持按量计费、套餐订阅、余额充值，模型价格也比较透明。主要是这个站新人活动太给力了，最近经常在hvoy的[免费兑换码](https://hvoy.ai/free-tokens/invite-codes)页面投放兑换码，一个新用户总体可以得到价值113元的免费token。（0619更新，具体活动以站点为准哈）
-
-可以趁着活动先用赠送的新人额度跑一下自己的真实场景，再决定要不要长期使用。
-
 ### [RightCode](https://www.hvoy.ai/relaySite?&name=RightCode&source=git)
 就是为编程准备的, 只支持Claude, Gemini和GPT的接口. 
 
@@ -123,6 +113,15 @@ Sonnet4.6的价格是人民币 10.5/63 一百万Token.(虽然还是不便宜)
 
 btw:这个站点的域名老容易打错.
 
+
+### [WinToken](https://www.hvoy.ai/relaySite?target=https%3A%2F%2Fwintoken.dev%2Fsign-up&name=WinToken&source=git)
+这个站比较适合 AI 应用开发、Agent 构建、产品原型验证、接口测试，以及企业内部工具集成这类场景。用户可以用一个 API Key 接入多种模型，省掉不少多平台账号配置和接口适配的麻烦。
+
+它提供 GPT、Claude、DeepSeek、Gemini、Qwen 等主流大模型的统一调用。
+
+它支持按量计费、套餐订阅、余额充值，模型价格也比较透明。主要是这个站新人活动太给力了，最近经常在hvoy的[免费兑换码](https://hvoy.ai/free-tokens/invite-codes)页面投放兑换码，一个新用户总体可以得到价值113元的免费token。（0619更新，具体活动以站点为准哈）
+
+可以趁着活动先用赠送的新人额度跑一下自己的真实场景，再决定要不要长期使用。
 
 ### [NekoCode](https://www.hvoy.ai/relaySite?name=NekoCode&source=git)
 2026年新开的一个站点, 提供Claude, GPT 两种类型的API.
