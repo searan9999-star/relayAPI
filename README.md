@@ -123,18 +123,6 @@ btw:这个站点的域名老容易打错.
 
 可以趁着活动先用赠送的新人额度跑一下自己的真实场景，再决定要不要长期使用。
 
-### [NekoCode](https://www.hvoy.ai/relaySite?name=NekoCode&source=git)
-2026年新开的一个站点, 提供Claude, GPT 两种类型的API.
-界面风格也是淡淡的, 甚得我心.
-
-接口异常稳定, claude 就有 max号池 和kiro 两个选择. 都挺稳定的, max 质量很好,kiro 比较实惠.
-
-价格比较合理, max渠道的 Opus4.7 价格是 ¥9(进)45(出)/一百万Token, 质量对得起这个价格. 
-
-之前有包月套餐, 现在都没了.主要是按量.
-新用户有一个小福利, 15 块钱可以卖 30 块钱的量.
-此外, 最低充 20 人民币.
-
 
 ### [Unity2.ai](https://www.hvoy.ai/relaySite?id=39968&name=unity2&source=git)
 这个站最近在 L 站、V2EX 和几个开发者群里出现得比较多。
@@ -199,14 +187,6 @@ GPT5.5 的价格是¥2(进)12(出)/一百万Token.
 
 优点是新用户注册送4块钱的额度, 每天可以签到送一些额度. 很适合进行尝试, 感觉不错再充钱
 
-### [Cubence](https://www.hvoy.ai/relaySite?target=https%3A%2F%2Fcubence.com%2Fsignup%3Fcode%3DSCG4A2RZ&name=Cubence&source=git)
-这是一个2025年下半年新建的站, 站做的还挺好看的.
-
-支持Claude, Gemini和GPT,Grok的系列的API接口.
-
-逆向的Opus4.6 是人民币¥1.5(进)7.5(出)/一百万Token, 逆向的Sonnet4.6 是¥0.9(进)4.5(出)/一百万Token. 价格还不错, 看群里网友反应稳定心也还可以.
-
-新用户注册没有使用的额度, 最少一次要充值30人民币.
 
 ### [IKunCode](https://www.hvoy.ai/relaySite?target=https%3A%2F%2Fapi.ikuncode.cc%2F&name=IKunCode&source=git)
 这也是一个专注于编程的API站点, 所以只支持Claude, GPT和Gemini.
@@ -237,14 +217,6 @@ AnPin站长在x上非常活跃, 手上开展的业务也非常多.  这个站的
 Opus4.7 推荐使用MAX的号池,价格刚降价, 变成了8.5(进)42.5(出)/一百万Token. 在max号池这一块, 算是便宜的. 质量也没问题, 但是响应速度一般
 
 GPT5.5 的价格是0.8(进)4.8(出)/一百万Token, 算是非常便宜的了.
-
-### [AOK](https://www.hvoy.ai/relaySite?name=AOK&source=git)
-
-AOK是一个新账, 站长人比较爽快,服务还行.
-
-目前只支持GPT系列, GPT5.5价格是¥2(进)12(出)/一百万Token, 价格不算便宜,就还行吧.
-
-网站只支持通过stripe的支付宝付款.
 
 
 ## 中性
